@@ -1,7 +1,8 @@
-import React from 'react'
-import Navbar from '../components/navbar.jsx'
+import React from "react";
+import Navbar from "../components/Navbar.jsx";
+import FeaturesSection from "../components/FeaturesSection.jsx";
+import imgFeatureFurniture from "../assets/bike travellers-cuate.png";
 
-import imgFeatureFurniture from '../assets/bike travellers-cuate.png'
 
 function Home() {
   return (
@@ -29,6 +30,8 @@ function Home() {
         </p>
  
       </div>
+      
+          <FeaturesSection />
 
         </div>
       
