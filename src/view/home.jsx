@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar.jsx";
+import Navbar from "../components/navbar.jsx";
 import FeaturesSection from "../components/FeaturesSection.jsx";
 import imgFeatureFurniture from "../assets/bike travellers-cuate.png";
 
@@ -30,7 +30,7 @@ function Home() {
         </p>
  
       </div>
-      
+
           <FeaturesSection />
 
         </div>
